@@ -1,12 +1,15 @@
 import React from "react";
+import "./Button.css";
 
 const Button = props => {
   const { label, className, handleClick } = props;
 
   return (
-    <button className={className} id={label} onClick={handleClick}>
-      {label}
-    </button>
+    <div className="buttons">
+      <button className={className} id={label} onClick={handleClick}>
+        {label}
+      </button>
+    </div>
   );
 };
 

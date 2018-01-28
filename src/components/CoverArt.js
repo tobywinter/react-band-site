@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Home.scss";
+import "./Home.css";
 
 const CoverArt = props => {
   const { className, src } = props;

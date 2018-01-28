@@ -30,11 +30,11 @@ export default class Home extends Component {
       <div className="homePage">
         <h2 className="title">
           <Button
-            className="nav"
+            className="fill"
             label="Listen"
             handleClick={this.showListen}
           />
-          <Button className="nav" label="Live" handleClick={this.showEvents} />
+          <Button className="fill" label="Live" handleClick={this.showEvents} />
           <Logo colour="black" />
         </h2>
         <CoverArt className="art" src={partisanArtwork} />
