@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Button from "./Button";
 import CoverArt from "./CoverArt";
+import SocialNav from "./SocialNav";
 import Logo from "./Logo";
 import "./Home.css";
 const partisanArtwork = require("./assets/partisan-artwork.png");
@@ -37,6 +38,8 @@ export default class Home extends Component {
           <Button className="fill" label="Live" handleClick={this.showEvents} />
           <Logo colour="black" />
         </h2>
+        <SocialNav />
+
         <CoverArt className="art" src={partisanArtwork} />
       </div>
     );
