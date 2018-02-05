@@ -1,46 +1,33 @@
 import React, { Component } from "react";
 
-import Button from "./Button";
 import CoverArt from "./CoverArt";
-import SocialNav from "./SocialNav";
 import Logo from "./Logo";
+import Quote from "./Quote";
 import "./Home.css";
 const partisanArtwork = require("./assets/partisan-artwork.png");
 
 export default class Home extends Component {
-  state = { home: true, listen: false, live: false };
-
-  showEvents = () => {
-    this.setState(prevState => ({
-      home: false,
-      listen: false,
-      live: true
-    }));
-  };
-
-  showListen = () => {
-    this.setState(prevState => ({
-      home: false,
-      listen: true,
-      live: false
-    }));
-  };
-
   render() {
     return (
-      <div className="homePage">
-        <h2 className="title">
-          <Button
-            className="fill"
-            label="Listen"
-            handleClick={this.showListen}
-          />
-          <Button className="fill" label="Live" handleClick={this.showEvents} />
-          <Logo colour="black" />
-        </h2>
-        <SocialNav />
-
-        <CoverArt className="art" src={partisanArtwork} />
+      <div>
+        <div className="homePage">
+          <h2 className="title">
+            <Logo colour="black" />
+          </h2>
+          <CoverArt className="art" src={partisanArtwork} />
+        </div>
+        <Quote
+          quote="One of the most impressive debuts I've heard in quite some time"
+          author="Crack In The Road"
+        />
+        <Quote
+          quote="A preening piece of musical joy"
+          author="Breaking More Waves"
+        />
+        <Quote
+          quote="Indie pop with the perfect dash of psych"
+          author="Too Many Blogs"
+        />
       </div>
     );
   }

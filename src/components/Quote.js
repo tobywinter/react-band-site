@@ -1,11 +1,11 @@
 import React from "react";
 
 const Quote = props => {
-  const { className, image, author, quote } = props;
+  const { className, imgClass, image, author, quote } = props;
 
   return (
-    <div className="quote">
-      <img className={`${className}`} src={image} />
+    <div className={`quote ${className}`}>
+      <img className={imgClass} src={image} />
       <h2>"{quote}"</h2>
       <h3>{author}</h3>
       <br />
