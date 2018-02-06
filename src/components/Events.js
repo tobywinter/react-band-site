@@ -8,11 +8,9 @@ const Event = props => {
   return (
     <div className={`quote ${className}`}>
       <h2>{date}</h2>
-      <h2>"{venue}"</h2>
+      <h2>{venue}</h2>
       <h3>{location}</h3>
-      <a href={link}>More Information</a>
-      <br />
-      <hr />
+      {link && <a href={link}>More Information</a>}
     </div>
   );
 };
