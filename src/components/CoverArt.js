@@ -3,11 +3,13 @@ import React from "react";
 import "./Home.css";
 
 const CoverArt = props => {
-  const { className, src } = props;
+  const { className, src, link } = props;
 
   return (
     <div className="coverContainer">
-      <img className={`${className}`} src={src} alt="cover art" />
+      <a href={link}>
+        <img className={`${className}`} src={src} alt="cover art" />
+      </a>
     </div>
   );
 };
