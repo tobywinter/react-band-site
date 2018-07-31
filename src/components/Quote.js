@@ -5,7 +5,7 @@ const Quote = props => {
 
   return (
     <div className={`quote ${className}`}>
-      <img className={imgClass} src={image} />
+      <img className={imgClass} src={image} alt={quote} />
       <h2>"{quote}"</h2>
       <h3>{author}</h3>
       <br />

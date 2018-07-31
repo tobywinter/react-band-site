@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 
-import CoverArt from "./CoverArt";
 import Logo from "./Logo";
 import Quote from "./Quote";
 import "./Home.css";
-const partisanArtwork = require("./assets/partisan-artwork.png");
 
 export default class Home extends Component {
   render() {
