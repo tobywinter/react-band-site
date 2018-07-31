@@ -1,0 +1,38 @@
+.homePage {
+  background: lightblue url(assets/pink-band-background.jpg) no-repeat fixed
+    center;
+  background-size: cover;
+  height: 45em;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.coverContainer {
+  display: grid;
+
+  .art {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+
+    @media (max-width: 480px) {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .art:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: scale(1.1);
+  }
+  .art:focus {
+    transform: translate(-0.25em);
+  }
+}
+
+.logo {
+  width: 6.5em;
+}
