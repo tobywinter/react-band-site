@@ -1,8 +1,7 @@
 .homePage {
-  background-image: url(assets/partisan-background.jpg);
-  background-color: aquamarine;
-  background-repeat: round;
-  background-attachment: fixed;
+  background: lightblue url(assets/pink-band-background.jpg) no-repeat fixed
+    center;
+  background-size: cover;
   height: 45em;
 }
 

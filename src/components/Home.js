@@ -14,11 +14,6 @@ export default class Home extends Component {
           <h2 className="title">
             <Logo colour="black" />
           </h2>
-          <CoverArt
-            className="art"
-            src={partisanArtwork}
-            link={`http://hyperurl.co/obtic5`}
-          />
         </div>
         <Quote
           quote="One of the most impressive debuts I've heard in quite some time"
@@ -36,3 +31,9 @@ export default class Home extends Component {
     );
   }
 }
+
+// <CoverArt
+// className="art"
+// src={partisanArtwork}
+// link={`http://hyperurl.co/obtic5`}
+// />
