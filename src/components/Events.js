@@ -20,6 +20,14 @@ const Events = props => {
     <div className="events">
       <Event
         className="event"
+        date=""
+        venue="HIDDEN HERD FESTIVAL 2018 - The Green Door Store"
+        location="Brighton, England"
+      />
+      <Event venue="PAST SHOWS" />
+      <br />
+      <Event
+        className="event"
         date="15th March"
         venue="Charlie Barnes - Islington Academy 2"
         location="London, England"
