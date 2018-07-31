@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import CoverArt from "./CoverArt";
-import Logo from "./Logo";
-import "./Listen.css";
-const partisanArtwork = require("./assets/partisan-artwork.png");
-const beAManArtwork = require("./assets/be-a-man-art.png");
+import CoverArt from './CoverArt';
+import Logo from './Logo';
+import './Listen.css';
+const partisanArtwork = require('./assets/partisan-art-small.jpg');
+const beAManArtwork = require('./assets/be-a-man-art.jpg');
 
 export default class Home extends Component {
   render() {
