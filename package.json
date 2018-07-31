@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "yawwn.com",
+  "homepage": "http://www.yawwn.com",
   "private": true,
   "dependencies": {
     "node-sass-chokidar": "0.0.3",
