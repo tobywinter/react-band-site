@@ -1,18 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Button from "./components/Button";
+import Button from './components/Button';
 
 const Header = () => (
   <header>
     <nav>
-      <Link to="/listen">
+      <Link className="navlink" to="/listen">
         <Button className="fill" label="Listen" />
       </Link>
-      <Link to="/live">
+      <Link className="navlink" to="/live">
         <Button className="fill" label="Live" />
       </Link>
-      <Link to="/">
+      <Link className="navlink" to="/">
         <Button className="fill" label="Home" />
       </Link>
     </nav>
