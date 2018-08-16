@@ -5,6 +5,7 @@ import Logo from './Logo';
 import './Listen.css';
 const partisanArtwork = require('./assets/partisan-art-small.jpg');
 const beAManArtwork = require('./assets/be-a-man-art.jpg');
+const bodyImInArtwork = require('./assets/body-im-in-art.jpg');
 
 export default class Home extends Component {
   render() {
@@ -24,6 +25,11 @@ export default class Home extends Component {
               className="art"
               src={beAManArtwork}
               link={`http://hyperurl.co/atbw3u`}
+            />
+            <CoverArt
+              className="art"
+              src={bodyImInArtwork}
+              link={`http://hyperurl.co/ya7m3h`}
             />
           </div>
         </div>

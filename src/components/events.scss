@@ -1,16 +1,21 @@
 .events {
-  background-image: url(assets/yawwn-01.jpg);
-  background-color: aquamarine;
-  background-repeat: no-repeat;
+  background: lightblue url(assets/pink-band-background.jpg) no-repeat fixed
+    center;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: 50% 50%;
 
   height: 45em;
-  padding-top: 4em;
 }
 
 .event {
   background-color: white;
   opacity: 0.6;
+}
+
+.logo {
+  width: 6.5em;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 0;
 }
