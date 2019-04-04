@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import CoverArt from './CoverArt';
-import Logo from './Logo';
-import './Listen.css';
-const partisanArtwork = require('./assets/partisan-art-small.jpg');
-const beAManArtwork = require('./assets/be-a-man-art.jpg');
-const bodyImInArtwork = require('./assets/body-im-in-art.jpg');
+import CoverArt from "./CoverArt";
+import Logo from "./Logo";
+import "./Listen.css";
+const partisanArtwork = require("./assets/partisan-art-small.jpg");
+const beAManArtwork = require("./assets/be-a-man-art.jpg");
+const bodyImInArtwork = require("./assets/body-im-in-art.jpg");
 
 export default class Home extends Component {
   render() {
