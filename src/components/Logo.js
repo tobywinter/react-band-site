@@ -1,19 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import "./Home.scss";
-const logoBlack = require("./assets/yawwn-black.png");
-const logoWhite = require("./assets/yawwn-white.png");
+import './Home.scss';
 
-const Logo = props => {
-  const { colour } = props;
+const logoBold = require('./assets/YAWWNLogo.svg');
 
-  const isLogoBlack = colour => {
-    return colour === "black" ? logoBlack : logoWhite;
-  };
-
+const Logo = () => {
   return (
     <div className="coverContainer">
-      <img className="logo" src={isLogoBlack(colour)} alt="yawwn logo" />
+      <img className="logo" src={logoBold} alt="yawwn logo" />
     </div>
   );
 };
